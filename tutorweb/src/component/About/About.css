@@ -1,0 +1,36 @@
+.first{
+    position: relative;
+    isolation: isolate;
+
+    color: white;
+}
+.first::after{
+    content: "";
+    position:absolute;
+    z-index: -1;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    background-image: url("./../../All_image/About/About\ Us.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+.misssion{
+    position: relative;
+    isolation: isolate;
+
+    color: white;
+}
+.misssion::after{
+    content: "";
+    position:absolute;
+    z-index: -1;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    background-image: url("./../../All_image/About/About\ Us\ \(3\).png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}

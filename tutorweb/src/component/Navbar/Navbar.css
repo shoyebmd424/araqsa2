@@ -1,0 +1,159 @@
+
+.mb-lg-0{
+    gap: 4rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
+.line-content{
+    gap: 4rem;
+    display: flex ;
+    color: white;
+    
+}
+.line-content>li{
+    padding: 1rem 1rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    list-style: none;
+    font-size: 25px;
+}
+.nav-btn{
+    padding-bottom:0 ;
+}
+.line-content>li:hover{
+ border-radius: 5px;
+}
+.line-content>li>a{
+    font-weight:500;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 0.5rem;
+}
+.line-content>li>a:hover{
+    background-color: rgba(18, 101, 219, 0.47);
+    border-bottom: 3px solid  rgb(202, 202, 222);
+}
+
+.dropdownn{
+    cursor: pointer;
+    font-weight: 400;
+}
+.dropdown-menubar>li>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+.dropdown-menubar{
+    display: none;
+    position: absolute;
+    z-index: 5;
+    color: white;
+    margin-top: 1.5rem;
+    padding: 1rem;
+
+}
+.dropdownn:hover  .dropdown-menubar{
+    display: block;
+   
+}
+.dropdown-icon:hover{
+ transform: rotate(180deg);
+}
+.drop{
+    font-size: 25px;
+}
+
+.dropdownn:hover .drop{
+    position: absolute;
+    transition: all 500ms;
+    transform: rotate(180deg);
+}
+.sublist{
+    display: none;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+.sub-dropdown{
+    margin: auto 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+.sub-dropdown:hover .sublist{
+    display: block;
+    background-color: rgba(66, 66, 214, 0.689);
+}
+.sub-dropdown:hover  .down{
+    transition: all 200ms;
+    position: absolute;
+    transform: rotate(180deg);
+}
+.toggle{
+    display: none;
+}
+
+.dropdown-menubar>li{
+    list-style: none;
+}
+@media screen and (max-width:500px) {
+    .dropdown-menubar{
+        margin-top: 0rem;
+    }
+}
+@media (min-width:500px) and (max-width:1400px) {
+    .dropdown-menubar{
+        margin-top: -2rem;
+        left: 100%;
+        }
+        
+    .dropdownn:hover .drop{
+        position: absolute;
+        transition: all 500ms;
+        transform: rotate(180deg);
+    }
+}
+@media screen and (max-width:1400px) {
+    .toggle{
+        display: block;
+    }
+    .close{
+        display: none;
+    }
+    
+    .dropdownn:hover .drop{
+        position: absolute;
+        transition: all 500ms;
+        transform: rotate(180deg);
+    }
+   
+    .line-content{
+        position: absolute;
+        left: 0rem;
+        top: 0rem;
+    flex-direction: column;
+    z-index: 3;
+    gap: 0.5rem ;
+    background-color: black;
+    height: 100vh;
+    border-radius: 0.5rem;
+    }
+    .line-content>li>a{
+        color: white;
+    }
+    .line-content>ul>li{
+        color: white;
+    }
+   .btns{
+    flex-direction: column;
+    gap: 1rem;
+   }
+}
+ /* about li */
+ .about-li:hover{
+    cursor: pointer;
+    background-color: rgba(66, 66, 214, 0.689);
+    border-radius: 3px;
+ }
+ 

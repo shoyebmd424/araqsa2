@@ -1,0 +1,31 @@
+
+.animate{
+    overflow-x:inherit;
+    animation: animator 15s linear 10s infinite alternate;
+    flex-wrap: nowrap;
+
+}
+@keyframes animator {
+        0%{
+            transform: translateX(-50%);
+        } 
+      
+        100% {
+            transform: translateX(10%);
+        }
+}
+.animate:hover{
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+    cursor: pointer;
+}
+.comma{
+    font-size: 2rem;
+    position: relative;
+    bottom: -4.7rem;
+    background: white;
+    left: -6rem;
+    font-size:3rem;
+}

@@ -1,0 +1,6 @@
+.blist{
+  font-weight: bold;
+}
+.batch , .batch>:first-child{
+  border: 5px solid indigo;
+}

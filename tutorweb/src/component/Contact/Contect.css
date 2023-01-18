@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Merriweather:wght@900&family=Noto+Nastaliq+Urdu:wght@500;600&display=swap');
+.urdu{
+    font-family: 'Amiri', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Noto Nastaliq Urdu', serif;
+font-size: 60px;
+color: goldenrod;
+text-shadow: 2px 2px black;
+font-weight: bold;
+}
+input{
+    padding: 5px;
+    border-radius: 0.5rem;
+}
+textarea{
+    padding: .5rem;
+}
+p{
+    margin: 0;
+}
+label{
+    font-weight: bold;
+}
+.images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+}
+.register{
+    border-bottom: 2px dashed blue;
+}
+.gradient{
+    background-image:
+            linear-gradient(45deg,
+              rgba(241, 218, 218, 0.75),
+              rgba(216, 211, 244, 0.75)), url(
+'../../All_image/background/abudhabi.jpg');
+color: white;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.form{
+    font-size: 18px;
+}

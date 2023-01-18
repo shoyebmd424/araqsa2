@@ -1,0 +1,14 @@
+.cards{
+    overflow-x: scroll;
+    gap: 6rem;
+}
+.cards::-webkit-scrollbar {
+    display: none;
+  }
+ #cimg{
+    aspect-ratio: 4/3;
+    transition: all 1s;
+ }
+ #cimg:hover{
+    transform: scale(1.1);
+ }

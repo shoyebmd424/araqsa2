@@ -1,0 +1,10 @@
+.bold{
+    font-weight: 500;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.container-fluid{
+    background-image: linear-gradient(0deg, #1b61d2a6 10%, #36bef85c 50%, #71dfc9cb 75%);
+}

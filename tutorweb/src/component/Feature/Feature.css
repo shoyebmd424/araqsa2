@@ -1,0 +1,19 @@
+.feature-body{
+    margin-left: 0;
+    position: relative;
+    isolation: isolate;
+
+    color: white;
+ 
+}
+.feature-body::after{
+    content: "";
+    position:absolute;
+    z-index: -1;
+    inset: 0;
+    background-color: rgba(9, 9, 9, 0.324);
+    opacity: 0.3;
+    background-image: url("./../../All_image/background/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}

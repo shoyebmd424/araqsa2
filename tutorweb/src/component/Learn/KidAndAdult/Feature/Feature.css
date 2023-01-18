@@ -1,0 +1,28 @@
+.lesh::after{
+    content: "";
+    width: 3px;
+    height: 50px;
+    background-color: red;
+    font-weight: bold;
+    position: absolute;
+    left: 9rem;
+
+}
+.lesh::before{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: red;
+    font-weight: bold;
+    position: absolute;
+ left: 9rem;
+}
+.leshp::before{
+    content: "";
+    width: 55px;
+    height: 3px;
+    background-color: red;
+    font-weight: bold;
+    position: absolute;
+    left: 19.5rem;
+}

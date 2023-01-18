@@ -1,0 +1,19 @@
+/* .fact{
+    position: relative;
+    isolation: isolate;
+
+    color: white;
+}
+.fact::after{
+    content: "";
+    position:absolute;
+    z-index: -1;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    background-image: url("./../../All_image/home/fact.png");
+    background-size: cover;
+    /* background-position: center; */
+    /* border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+} */ 

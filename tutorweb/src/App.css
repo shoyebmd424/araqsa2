@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,300;0,500;0,800;0,900;1,400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+i{
+  font-size: 30px;
+}
+.App{
+  overflow: hidden;
+  z-index: 2;
+  font-family: 'Sofia Sans', sans-serif;
+}
+.animat{
+  overflow: hidden;
+  animation: header 13s linear infinite  alternate;
+
+}
+@keyframes header {
+  0%{
+    transform: translateX(-75%);
+  }
+  100%{
+    transform: translateX(73%);
+  }
+}
+
+.stroke{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(65, 62, 247, 0.863);
+  color: transparent;
+  font-family: Arial,Helvetica,sans-serif;
+}
+.trial{
+  font-weight: bold;
+  font-size: 20;
+}
+p{
+  text-align: justify;
+  font-size: 19px;
+}
+.btn{
+  transition: all 3s;
+}
+.btn:hover{
+  transform: scale(1.08);
+}

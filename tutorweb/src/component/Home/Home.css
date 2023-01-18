@@ -1,0 +1,44 @@
+.Hfirst{
+background-image: url("../../All_image/HomeSlide/h1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Hsecond{
+background-image: url("../../All_image/HomeSlide/h2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Hthird{
+background-image: url("../../All_image/HomeSlide/h3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.urduhead{
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-size: 60px;
+    color: goldenrod;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+}
+.hform{
+    position: absolute;
+    right: 8rem;
+    top: 7rem;
+    z-index: 4;
+}
+@media screen and (max-width: 1100px) {
+    .hform {
+        right: 4rem;
+    }
+  }
+  @media screen and (max-width:767px) {
+    .hform{
+        position: relative;
+        top: auto;
+        right: auto;
+    }
+  }
+    

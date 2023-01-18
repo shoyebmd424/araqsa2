@@ -1,0 +1,32 @@
+.-learn-list:hover{
+    background-color: rgb(204, 161, 60);
+  
+}
+
+.learn-list{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0.5rem;
+}
+.top-scroll{
+    cursor: pointer;
+    position:fixed;
+    right: 1rem;
+    bottom: 1rem;
+    background-color: blue;
+    color: white;
+    padding:5px 1rem;
+    border-radius: 50%;
+}
+.top-scroll>:first-child{
+    font-size: 3rem;
+}
+.learn-li{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.learn-li>li{
+    list-style: none;
+    padding-right: 1rem;
+}

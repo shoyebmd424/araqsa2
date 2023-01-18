@@ -1,0 +1,4 @@
+.simg{
+    background: rgb(9,248,229);
+    background: radial-gradient(circle, rgba(9,248,229,1) 56%, rgba(255,255,255,1) 70%, rgba(166,225,237,1) 70%, rgba(226,230,152,1) 70%, rgba(242,239,8,1) 86%);
+}

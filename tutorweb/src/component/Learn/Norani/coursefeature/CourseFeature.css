@@ -1,0 +1,25 @@
+.course-box{
+    background-color: rgba(4, 150, 94, 0.941);
+    justify-content: center;
+    align-items: center;
+    border-radius: 4rem;
+    
+}
+.course-box>:first-child{
+    justify-content: center;
+    align-items: center;
+}
+.course-box>li{
+    list-style: disc;
+}
+.course-box>:first-child>:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-circle{
+    background-color: #41e5a0;
+    padding-left: 2rem;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
